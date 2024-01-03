@@ -1,38 +1,55 @@
-.App {
+.taskform{
+  /* border: 1px solid ; */
+  margin: 50px;
+  padding: 35px;
   text-align: center;
+  width: 40%;
+  border-radius: 15px;
+  background-color: rgb(250, 204, 144);
+  box-shadow: 2px 5px 10px rgb(0,0,0,0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h2,.h2{
+  text-align: center;
+  font-family: cursive;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/* AddTaskForm.css */
+ul {
+  list-style-type: none;
+  padding: 0;
 }
+
+li {
+  border: 1px solid ;
+  margin: 10px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-right: 40px;
+ 
+}
+
+span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Optional: Add hover effect for better user experience */
+li:hover {
+  background-color: #f8f9fa;
+}
+
